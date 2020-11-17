@@ -1,0 +1,111 @@
+
+/*  Navbar  */
+.navbar-brand {
+	color: #db3022;
+	font-weight: 700;
+}
+
+/* Search form */
+
+.input-group-text {
+  border-radius: 200px;
+}
+
+.form-control {
+  border-radius: 200px;
+}
+
+.cart {
+  color: #9B9B9B;
+}
+
+
+/* Button */
+.btn {
+  font-size: 14px;
+  width: 100px;
+  border-radius: 200px;
+  height: 40px;
+}
+
+.btn-full {
+	color: #fff;
+	background-color: #db3022;
+	border-color: #db3022;
+}
+
+.btn-full:hover {
+  background-color: #ad1b0d;
+  color: #fff;
+}
+
+.btn-outline {
+  border: 1px solid gray;
+  color: gray;
+}
+
+.btn-outline:hover {
+  border: 1px solid #db3022;
+	background-color: #db3022;
+	color: #fff;
+}
+
+.btn-filter {
+  width: 40px;
+  border-radius: 12px;
+}
+
+/* Card box */
+.box-shadow{
+  box-shadow: 2px 2px 10px grey;
+}
+
+/* White space  */
+.white-space{
+  min-height: 15px;
+  max-height: 20px;
+}
+
+.double-white-space{
+  min-height: 50px;
+}
+
+/* Paragraf */
+.text-gray{
+  color: gray;
+}
+
+.box-category{
+  text-align: center;
+  min-height:220px;
+  min-width:169px;
+  border-radius: 10px;
+}
+
+.center-image{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.center-text{
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-carousel > img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.center-text > h1{
+  font-weight: 800;
+}

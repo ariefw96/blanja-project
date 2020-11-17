@@ -1,0 +1,104 @@
+html{
+    height: 100%;
+}
+body{
+    font-family: 'Segoe UI', sans-serif;;
+    font-size: 1rem;
+    line-height: 1.6;
+    height: 100%;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    /* align-items: center; */
+    background: #ffffff;
+}
+
+a{
+    text-decoration: none;
+}
+
+.form-header{
+    text-align: center;
+    /* margin-bottom : 2rem; */
+}
+.login-form{
+    width: 400px;
+    margin-top: %;
+    /* border: 1px solid #ddd; */
+    padding: 2rem;
+    background: #ffffff;
+}
+.form-input{
+    background: #ffffff;
+    /* border: 1px solid #eeeeee; */
+    border: 1px solid #9B9B9B;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 1px 8px rgba(0, 0, 0, 0.05));
+    border-radius: 4px;
+    height: 48px;
+    width: 400px;
+}
+.form-group{
+    margin-bottom: 1rem;
+}
+.form-button{
+    margin-bottom: 1rem;
+    background: #DB3022;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    color: #ffffff;
+    padding: 10px;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.form-footer{
+    text-align: center;
+}
+h3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 20px;
+    text-align: center;
+    color: #DB3022;
+}
+p{
+    font-weight: bold;
+}
+.btn-group{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+    /* max-width: 200px; */
+    margin: 2em 0em;
+}
+.btn-group button {
+    width: 123px;
+    height: 48px;
+    float: left; /* Float the buttons side by side */    
+}
+
+.login-customer{
+    background-color: red;
+    color: white;
+    border-radius: 4px 0px 0px 4px;
+    border: 1px solid;
+    border-color: gray;
+    border-right: none;
+
+}
+
+.login-seller{
+    background-color: white;
+    color: gray;
+    border: 1px solid;
+    border-color: gray;
+    border-radius: 0px 4px 4px 0px;
+    border-left: none;
+}
